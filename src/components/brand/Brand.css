@@ -1,0 +1,39 @@
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.brands div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px;
+    margin: 1rem;
+}
+
+@media screen and (min-width:570px) and (max-width:720px){
+    .brands div img{
+        height: 20px;
+    }
+}
+@media screen and (min-width:480px) and (max-width:569px){
+   
+   .brands{
+    padding: 0 4rem;
+   }
+    .brands div img{
+        height: 15px;
+    }
+}
+@media screen and  (max-width:479px){
+    .brands div{
+        margin: 0.5 ;
+    }
+    .brands div img{
+        height: 12px;
+    }
+}
