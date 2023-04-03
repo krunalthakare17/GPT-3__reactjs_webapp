@@ -22,7 +22,7 @@ const FeaturesItem = [
 ];
 function Features() {
   return (
-    <div className="features">
+    <div className="features" id='features'>
       <div className="features_heading">
         <h1 className="gradient__text">The Future is Now and You Just Need To Realize It.Step In Future Today & Make It Happen. </h1>
         <p>Request Early Assess Go To The Started</p>

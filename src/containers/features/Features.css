@@ -1,30 +1,30 @@
-.features{
+.features {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: 2rem  ;
-    
+    margin: 2rem;
+
 }
 
-.features_heading{
+.features_heading {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     text-align: left;
-margin-right: 5rem;
+    margin-right: 5rem;
 
 }
 
-.features_heading h1{
+.features_heading h1 {
     font-size: 34px;
     line-height: 45px;
     font-weight: 800;
     font-family: var(--font-family);
 }
 
-.features_heading p{
+.features_heading p {
     color: var(--color-subtext);
     font-size: 16px;
     line-height: 30px;
@@ -33,7 +33,7 @@ margin-right: 5rem;
     margin-top: 2rem;
 }
 
-.features_container{
+.features_container {
     flex: 1.5;
     display: flex;
 
@@ -41,8 +41,27 @@ margin-right: 5rem;
     align-items: center;
     flex-direction: column;
 }
-.features_container p{
+
+.features_container p {
     margin-right: 2rem;
 }
 
 
+@media screen and (max-width:1000px) {
+    .features {
+        flex-direction: column;
+    }
+
+    .features_heading {
+        margin: 0 0 2rem 0;
+  
+    }
+}
+
+@media screen and (max-width:590px) {
+
+    .features_heading h1{
+        font-size: 28px;
+        line-height: 38px;
+    }
+}

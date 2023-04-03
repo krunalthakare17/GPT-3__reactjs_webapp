@@ -1,6 +1,6 @@
 .possibility{
     display: flex;
- 
+ margin: 2rem;
 }
 
 .possibility-img{
@@ -22,6 +22,7 @@ display: flex;
 justify-content: flex-end;
 align-items: flex-start;
 flex-direction: column;
+margin-left: 2rem;
 }
 .possibility__container h4{
     font-family: var(--font-family);
@@ -38,7 +39,7 @@ flex-direction: column;
     font-weight: 800;
     font-size: 34px;
     line-height: 45px;
-    margin: 1rem 0;
+    /* margin: 1rem 0; */
 }
 .possibility__container p{
     color: var(--color-text);
@@ -47,4 +48,41 @@ flex-direction: column;
     font-size: 16px;
     line-height: 30px;
     margin-bottom: 2rem;
+}
+
+@media screen and (max-width:800px) {
+.possibility{
+    flex-direction: column;
+}
+
+    .possibility-img, .possibility__container{
+        margin: 2rem .5rem 0 .5rem;
+    
+    }
+    .possibility__container h4, .possibility__container p{
+        font-size: 15px;
+    }
+    
+    .possibility__container h1{
+        font-size: 28px;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .possibility-img{
+margin: 0;}
+
+    .possibility__container{
+        margin-top:2rem;
+        
+    }
+
+    .possibility__container h4, .possibility__container p{
+        font-size: 14px;
+    }
+    
+    .possibility__container h1{
+        font-size: 24px;
+    }
+    
 }

@@ -2,8 +2,14 @@ import React from 'react'
 import './Cta.css'
 function Cta() {
   return (
-    <div>
-      Cta
+    <div className="cta">
+      <div className="cta-content">
+        <p>Request Early Access to Get Started</p>
+        <h3>Register Today & start exploring the endless possibilities.</h3>
+      </div>
+      <div className="cta-btn">
+        <button type='Button'>Started</button>
+      </div>
     </div>
   )
 }

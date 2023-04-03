@@ -4,7 +4,7 @@ import './Possibility.css';
 
 function Possibility() {
   return (
-    <div className="possibility">
+    <div className="possibility"  id="possibility">
       <div className="possibility-img">
         <img src={possibilityImage} alt="img" />
       </div>
