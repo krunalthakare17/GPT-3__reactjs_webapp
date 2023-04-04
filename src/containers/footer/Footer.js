@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css';
+import logogpt3 from "../../assets/logo.svg"
 
 
 function Footer() {
@@ -13,7 +14,7 @@ function Footer() {
       </div>
       <div className="footer-last">
         <div className="footer-last_logo">
-          <img src="" alt="" />
+          <img src={logogpt3} alt="logo" />
           <p>Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved</p>
         </div>
         <div className="footer-last-links">
